@@ -1,0 +1,97 @@
+/*
+ * By 大术专搜(bigSearch)
+ * (acsearch.ga, acsearch.tk)
+ * 
+ * 版权所有 保留所有权利
+ * All Rights Reserved
+ * 
+ * Source code: https://github.com/garywill/bigSearch
+ * 
+ */
+
+#content_mobile { display:inline-block; clear:left; }
+
+#catabtns_header { display:none;}
+#catas_cont { 
+    padding-top:unset; 
+    padding-right: unset; 
+    text-align: center; 
+    word-break: keep-all; 
+    
+}
+.cata_btns { 
+    padding: 6px 10px; 
+    font-weight:bold; 
+    display:inline-block;
+    
+}
+
+#index_subtitle { display:none;}
+#index_title {text-align: center; display:block; margin: 0px;}
+
+#engines_o_cont { text-align:center; }
+#engines_cont {
+    /* box-shadow: unset;  */
+    /* overflow-y: auto; */
+}
+#engines_table {  
+    /* min-width: unset;  */
+    /* box-shadow: 4px 3px 7px #a1a1a1; */
+    
+}
+.enginename_td {  min-width:unset; white-space:unset; }
+
+#input_o_cont, #input_cont, #inputbox {  min-width: unset;}
+#input_o_cont { text-align: center;}
+#input_cont { 
+    /* padding: 0px 20px;  */
+    display: inline-block;
+    
+}
+#inputbox { text-align: center; }
+#btns_below_input {font-size: unset;} 
+
+#hist_td {
+    padding-left: unset;
+    padding-top: unset;
+}
+#floater{ 
+  
+    position: absolute;
+
+    background-color: rgba(255,255,255,0.7);
+    top: 0;
+    left: 0;
+    width: 500px;
+    height:900px;
+    text-align:center;
+}
+#floater_table  {
+}
+#floater_td {
+    text-align:center;
+    vertical-align: middle;
+}
+#hist_cont {  
+    display: inline-block;
+    background-color: rgba(255,255,255,1); 
+    text-align:left;
+}
+#hist { width: unset; height: unset; max-width: 250px; min-width:150px; max-height:450px; }
+#openhist{
+    display:unset; 
+    float: right;
+    font-size: 17px;
+} 
+.hist_entry_span_buttons {
+    display:block;
+    
+}
+.hist_entry_span_buttons, .hist_entry_button {
+    color: blue;
+}
+#hist_tip{display:none;}
+
+#btmbtns { padding-top: unset }
+.btm_dialog {padding-left: 20px; padding-right:20px;}
+

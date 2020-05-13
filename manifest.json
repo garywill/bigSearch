@@ -1,0 +1,36 @@
+{
+    "name": "Big Search",
+    "description": "A different tool to search online. Make the best use of different web search engines. The best online portal for people who value search quality and breadth.",
+    "manifest_version": 2,
+    "version": "1.0.1",
+    "homepage_url": "https://garywill.github.io",
+    "developer": {
+        "name": "Garywill",
+        "url": "https://github.com/garywill/bigSearch"
+    },
+    "permissions": [
+        "storage",
+        "menus",
+        "activeTab",
+        "search"
+    ],
+    "icons": {
+        "128": "icon.svg"
+    },
+ 
+    "browser_action": {
+        "default_icon": "icon_button.svg",
+        "default_title": "Big Search",
+        "default_popup": "addon-popup.html"
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+    
+
+} 
